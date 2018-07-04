@@ -100,21 +100,21 @@ class ProductRecommendation extends Component {
             </Fragment>
           ) : null}
 
-          {data.personalLoan !== "Y" ? (
+          {data.personalLoan === "N" ? (
             <Fragment>
               <PersonalLoan
                 productName={ProductRecommendationConstants.PLOAN_LABEL}
-                bg="#FFFAA2"
+                bg="#dfdfdf"
                 inPromotionList={false}
               />
               <Divider />
             </Fragment>
           ) : null}
 
-          {data.mortgage !== "Y" ? (
+          {data.mortgage === "N" ? (
             <Fragment>
               <MortgageLoan
-                bg="#FFFAA2"
+                bg="#dfdfdf"
                 productName={ProductRecommendationConstants.HLOAN_LABEL}
                 inPromotionList={true}
               />
