@@ -95,7 +95,7 @@ class Reminder extends Component {
   }
 
   displayNoData() {
-    return <div className={classes.noDataStyle}>無資料</div>;
+    return <Header textAlign="center" content="無資料" className="noData" />;
   }
 
   render() {
@@ -111,7 +111,7 @@ class Reminder extends Component {
         this.displayPromotionCampaign()
       ].every(item => item == null);
       content = showNoData ? (
-        <div className={classes.buttonsContainer}>{this.displayNoData()}</div>
+        <div>{this.displayNoData()}</div>
       ) : (
         <div className={classes.buttonsContainer}>
           {this.displayAutoAccountDebitingFailure()}

@@ -83,7 +83,9 @@ class PointsExpirationModal extends Component {
                 {y1AsianExpireMiles > 0 ? (
                   <Table.HeaderCell>亞萬里程數</Table.HeaderCell>
                 ) : null}
-                {/*y1EvaExpireMiles > 0 ? (<Table.HeaderCell>長榮哩程數</Table.HeaderCell>) : null*/}
+                {/*y1EvaExpireMiles > 0 ? (
+                  <Table.HeaderCell>長榮哩程數</Table.HeaderCell>
+                ) : null*/}
               </Table.Row>
             </Table.Header>
             <Table.Body>

@@ -76,18 +76,18 @@ class NewCreditCardCustomerWelcomeGiftModal extends Component {
             <Table.Header>
               <Table.Row>
                 <Table.HeaderCell>卡號末8碼</Table.HeaderCell>
-                <Table.HeaderCell>活動代碼</Table.HeaderCell>
-                <Table.HeaderCell>活動訖日</Table.HeaderCell>
                 <Table.HeaderCell>已刷幾筆</Table.HeaderCell>
+                <Table.HeaderCell>活動訖日</Table.HeaderCell>
+                <Table.HeaderCell>活動代碼</Table.HeaderCell>
                 <Table.HeaderCell>還差幾筆</Table.HeaderCell>
               </Table.Row>
             </Table.Header>
             <Table.Body>
               <Table.Row>
                 <Table.Cell>{cardNo.substr(-8)}</Table.Cell>
-                <Table.Cell>{usedCardCnt}</Table.Cell>
-                <Table.Cell>{campaignEndDate}</Table.Cell>
                 <Table.Cell>{campaignCode}</Table.Cell>
+                <Table.Cell>{campaignEndDate}</Table.Cell>
+                <Table.Cell>{usedCardCnt}</Table.Cell>
                 <Table.Cell>{diffCardCnt}</Table.Cell>
               </Table.Row>
             </Table.Body>

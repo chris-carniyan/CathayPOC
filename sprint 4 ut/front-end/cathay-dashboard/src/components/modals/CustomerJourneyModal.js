@@ -119,7 +119,7 @@ class CustomerJourneyModal extends Component {
                   ))}
                   {this.props.lastUpdated === this.props.t.timestamp ? (
                     <span className="textBlue" style={{ fontWeight: "bold" }}>
-                      <br />資料更新日
+                      <p style={{ fontSize: 14 }}>資料更新日</p>
                     </span>
                   ) : null}
                 </span>
@@ -146,11 +146,11 @@ class CustomerJourneyModal extends Component {
                       fontWeight: 600
                     }}
                   >
-                    More
+                    &nbsp;&nbsp;More
                   </span>
                   {this.props.lastUpdated === this.props.t.timestamp ? (
                     <span className="textBlue" style={{ fontWeight: "bold" }}>
-                      <br />資料更新日
+                      <p style={{ fontSize: 14 }}>資料更新日</p>
                     </span>
                   ) : null}
                 </span>

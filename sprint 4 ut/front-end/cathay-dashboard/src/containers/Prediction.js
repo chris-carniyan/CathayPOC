@@ -59,12 +59,7 @@ class CustomerQuestionsPrediction extends Component {
             </Table.Body>
           </Table>
         ) : (
-          <Header
-            as="h2"
-            textAlign="center"
-            content="無資料"
-            className="noData"
-          />
+          <Header textAlign="center" content="無資料" className="noData" />
         );
     } else {
       content = !loading && (

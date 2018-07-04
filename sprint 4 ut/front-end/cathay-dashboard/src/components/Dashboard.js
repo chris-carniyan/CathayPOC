@@ -8,6 +8,7 @@ import Prediction from "../containers/Prediction";
 import FinancialInformation from "../containers/FinancialInformation";
 import ProductRecommendation from "../containers/ProductRecommendation";
 import Reminder from "../containers/Reminder";
+import Helper from "../utility/Helper";
 
 class Dashboard extends Component {
   state = {
@@ -22,6 +23,9 @@ class Dashboard extends Component {
   render() {
     return (
       <Container fluid>
+        <div className="watermark">
+          {Helper.getQueryParameters().header.employeeId}
+        </div>
         <Grid>
           <Grid.Row>
             <Grid.Column stretched width={4}>

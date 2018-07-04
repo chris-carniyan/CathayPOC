@@ -123,7 +123,7 @@ class AutoAccountDebitingModal extends Component {
     }
 
     return (
-      <span class={classes.creditCardSpan}>
+      <span className={classes.creditCardSpan}>
         <Modal
           size="large"
           trigger={

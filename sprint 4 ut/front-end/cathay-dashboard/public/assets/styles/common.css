@@ -43,6 +43,24 @@ body {
   font-size: 72px;
 }
 
+.watermark {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  transform: skewY(335deg);
+  font-size: 220px;
+  opacity: 0.3 /*0.15*/;
+  letter-spacing: 0.65em;
+  color: rgba(230, 230, 230, 1) /*rgba(248, 248, 248, 1)*/;
+}
+
 /*overrides*/
 .ui.menu {
   color: #2e2e2e;
@@ -112,6 +130,10 @@ body {
   padding: 15px 0 !important;
   box-shadow: 0 3px 18px rgba(0, 0, 0, 0.1) !important;
   border: none !important;
+}
+
+.segment > * {
+  z-index: 20 !important;
 }
 
 .segmentHeader {
@@ -280,6 +302,7 @@ td {
 
 .noData {
   margin-top: 50px !important;
+  font-size: 18px !important;
 }
 
 /* .reminderContainerHeight {
