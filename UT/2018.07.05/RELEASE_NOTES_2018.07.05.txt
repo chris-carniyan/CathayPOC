@@ -1,0 +1,8 @@
+**********Release Notes for 07.05.2018********************
+
+Jul-05 2018
+-temporarily disabled audit trail service calls for all the Microservices
+
+
+
+**********Release Notes for 07.05.2018********************
