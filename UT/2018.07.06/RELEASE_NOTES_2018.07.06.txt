@@ -2,6 +2,7 @@
 
 Jul-06 2018
 - Modify the property file because the data-location directory is not accessible
+- Update DB configurations
 
 
 **********Release Notes for 07.05.2018********************
