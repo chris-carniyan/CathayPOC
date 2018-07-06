@@ -1,0 +1,29 @@
+.chevron {
+  padding: 0;
+  color: #11a847;
+}
+
+.chevron:hover,
+.journeyCell:hover {
+  cursor: pointer;
+}
+
+.legend {
+  margin-left: 20px !important;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+}
+
+.icon {
+  width: 24px;
+  height: 22px;
+}
+
+.channel {
+  margin-left: 5px;
+  text-transform: uppercase;
+}
+
+.action {
+  text-transform: capitalize;
+}

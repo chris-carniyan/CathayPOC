@@ -1,0 +1,8 @@
+**********Release Notes for 07.06.2018********************
+
+Jul 06 2018
+- changed configuration from UT to UAT of all microservices
+- updated version of all microservices to "0.1.1"
+
+
+**********Release Notes for 07.06.2018********************
