@@ -2,6 +2,7 @@
 
 Jul 06 2018
 - changed configuration from UT to UAT of all microservices
+- changed configuration from UT to UAT of all API and jobs
 - updated version of all microservices to "0.1.1"
 
 
