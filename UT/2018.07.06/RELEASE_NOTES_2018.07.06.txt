@@ -1,0 +1,7 @@
+**********Release Notes for 07.05.2018********************
+
+Jul-06 2018
+- Modify the property file because the data-location directory is not accessible
+
+
+**********Release Notes for 07.05.2018********************
