@@ -1,0 +1,8 @@
+**********Release Notes for 07.09.2018********************
+
+Jul 06 2018
+- changed ip address of mongo.war
+- fix first gift issue
+
+
+**********Release Notes for 07.09.2018********************

@@ -1,0 +1,165 @@
+.bg {
+  background-color: #f8fcf6 !important;
+}
+
+.segmentContent {
+  padding: 18px 22.5px 0 21.5px;
+}
+
+.loanBtn {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  width: 150px;
+  padding: 7.5px 4.5px 7.5px 10px;
+  margin-left: 10.5px;
+  font-size: 18px;
+  color: #2e2e2e;
+}
+
+.loanBtnIcon {
+  height: 23px !important;
+  width: 18px !important;
+  margin-left: 7px !important;
+  padding: 0 !important;
+  font-size: 18px !important;
+}
+
+.loanBtnText {
+  height: 25px;
+  font-weight: bold;
+}
+
+.loanBtnArrow {
+  color: rgba(46, 46, 46, 0.54);
+}
+
+.loanForm {
+  margin: 11px 0 0 23.5px;
+}
+
+.referralOptions {
+  display: flex;
+  align-items: center;
+  max-height: 24px !important;
+}
+
+.referralOption {
+  background-color: #dfdfdf;
+  color: #9a9a9a;
+  box-shadow: none !important;
+  cursor: pointer;
+  font-size: 18px !important;
+  margin-right: 6px !important;
+}
+
+.loanForm .referralOption {
+  margin-right: 12px !important;
+}
+
+.interested:hover {
+  background-color: #11a847;
+  color: #ffffff;
+}
+
+.noNeed:hover {
+  background-color: #ef2c2c;
+  color: #ffffff;
+}
+
+.notSuitable:hover {
+  background-color: #1a82dc;
+  color: #ffffff;
+}
+
+.interestedOptions {
+  margin: 0 24px 0 -2px;
+  font-size: 12px;
+}
+
+.interestedOption {
+  margin-right: 10px;
+}
+
+.interestedOptions .icons {
+  margin-right: 4px !important;
+  cursor: pointer;
+  background-color: transparent;
+  box-shadow: 0 0 0 0.15em #11a847 inset !important;
+}
+
+.interestedOptions .icons:hover {
+  background-color: #11a847;
+}
+
+.actionButtons {
+  display: flex;
+  justify-content: flex-end;
+  margin: 14px 0 0 0;
+}
+
+.actionButtonsWithSelect {
+  display: flex;
+  align-items: center;
+  margin: 14px 0 0 0;
+}
+
+.actionButton {
+  margin-left: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: 22px;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 8px;
+  border: #11a847 1px solid;
+}
+
+.referralType {
+  min-width: 65px !important;
+  min-height: 29px !important;
+  border: 1px solid #d6d4d4 !important;
+}
+
+.referralForm {
+  margin-top: 14px;
+}
+
+.referralFormHeader {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.referralFormFields {
+  display: flex;
+  align-items: center;
+}
+
+.referralFormFields > * {
+  margin-right: 7px;
+}
+
+.referralFormFields input {
+  width: 65px !important;
+  height: 29px !important;
+  border: 1px solid #d6d4d4 !important;
+  font-size: 11px !important;
+}
+
+.referralFormFields > span {
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.referralFormFields > button {
+  background-color: #11a847 !important;
+  color: #ffffff !important;
+  padding: 0.5em !important;
+  width: 30px !important;
+  height: 30px !important;
+}
