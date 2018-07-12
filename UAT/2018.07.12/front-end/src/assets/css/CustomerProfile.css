@@ -1,0 +1,27 @@
+.customerProfileLeft {
+  /* border: 1px solid red; */
+  text-align: center;
+  height: 110px;
+  padding: 10px 0 5px 0;
+}
+
+.customerName {
+  /* border: 1px solid black; */
+  width: 130px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 18px;
+  overflow-wrap: normal;
+  margin: auto;
+}
+
+.birthDayIconEnabled {
+  position: relative;
+  top: 2px;
+  cursor: pointer;
+}
+
+.specialIdentity {
+  position: relative;
+  bottom: 5px;
+}

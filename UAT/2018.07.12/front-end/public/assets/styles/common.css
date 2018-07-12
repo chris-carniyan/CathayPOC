@@ -1,0 +1,341 @@
+@font-face {
+  font-family: "Microsoft JhengHei";
+  src: url("../fonts/msjh.eot");
+  src: url("../fonts/msjh.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/msjh.woff2") format("woff2"),
+    url("../fonts/msjh.woff") format("woff"),
+    url("../fonts/msjh.ttf") format("truetype"),
+    local("Microsoft JhengHei") format("truetype");
+}
+
+@font-face {
+  font-family: "Microsoft JhengHei";
+  src: url("../fonts/msjhbd.eot");
+  src: url("../fonts/msjhbd.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/msjhbd.woff2") format("woff2"),
+    url("../fonts/msjhbd.woff") format("woff"),
+    url("../fonts/msjhbd.ttf") format("truetype"),
+    local("Microsoft JhengHei") format("truetype");
+  font-weight: bold;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: "Microsoft JhengHei" !important;
+  min-width: 1423px !important;
+  color: #2e2e2e !important;
+  overflow: auto;
+}
+
+.retrictedAccessContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 752px;
+}
+
+.retrictedAccessMessage {
+  color: #ff4a4a;
+  font-size: 72px;
+}
+
+.watermark {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  transform: skewY(335deg);
+  font-size: 220px;
+  opacity: 0.3 /*0.15*/;
+  letter-spacing: 0.65em;
+  color: rgba(230, 230, 230, 1) /*rgba(248, 248, 248, 1)*/;
+}
+
+/*overrides*/
+.ui.menu {
+  color: #2e2e2e;
+  font-size: 14px;
+}
+.ui.small.modal {
+  top: 40% !important;
+}
+.ui.modal .close {
+  top: 23px !important;
+  right: 10px !important;
+  color: #2e2e2e !important;
+  padding: 0 !important;
+}
+.ui.inverted.dimmer {
+  background-color: rgba(46, 46, 46, 0.41) !important;
+}
+/* MODAL*/
+.modalModifiedStyles {
+  border-radius: 10px 10px 10px 10px !important;
+}
+.hover:hover {
+  cursor: pointer;
+}
+/* TEXT COLORS */
+.textBlack {
+  color: #2e2e2e !important;
+}
+.textBlue {
+  color: #1a82dc !important;
+}
+.textGreen {
+  color: #11a847 !important;
+}
+.textGrey {
+  color: #9a9a9a !important;
+}
+.textRed {
+  color: #ff4a4a !important;
+}
+
+/* BG COLOR */
+.bgGreen {
+  background-color: #11a847 !important;
+}
+.bgGrey {
+  background-color: #dfdfdf !important;
+}
+.bgYellow {
+  background-color: #fffaa2 !important;
+}
+
+/* PADDINGS */
+.paddingLeft1 {
+  padding-left: 1px !important;
+}
+.paddingBottom15 {
+  padding-bottom: 15px !important;
+}
+.bold {
+  font-weight: bold;
+}
+
+/* Panel / Segment */
+.segment {
+  border-radius: 8px !important;
+  padding: 15px 0 !important;
+  box-shadow: 0 3px 18px rgba(0, 0, 0, 0.1) !important;
+  border: none !important;
+}
+
+.segment > * {
+  z-index: 20 !important;
+}
+
+.segmentHeader {
+  font-size: 18px;
+  font-weight: bold;
+  color: #11a847;
+  padding: 7px 0 4px 20px;
+  border-left: solid 7px #11a847;
+  height: 36px;
+}
+
+.segmentContent {
+  padding: 0px 18px 0px 26px;
+  font-size: 16px !important;
+}
+
+/* Customer Journey Calendar */
+.customerJourneyCalendarTableBody {
+  font-size: 14px;
+}
+
+.customerJourneyCalendarTable {
+  width: 980px;
+  margin: auto !important;
+}
+
+.customerJourneyChannelsButtonContainer {
+  width: 980px;
+  margin: auto !important;
+  align-content: center;
+  margin: 15px 0;
+}
+
+/* MODAL */
+.dimmer {
+  background-color: rgba(46, 46, 46, 0.31) !important;
+}
+
+.ui.modals.dimmer {
+  z-index: 3000 !important;
+}
+
+.modalLoaderDimmer {
+  display: flex;
+  align-items: center;
+  height: 100px;
+}
+
+.modalLoaderDimmer .dimmer {
+  background-color: rgba(0, 0, 0, 0.1) !important;
+}
+
+.modal {
+  border-radius: 10px !important;
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.16) !important;
+}
+.modal > .close {
+  top: 15px !important;
+  right: 20px !important;
+  color: #131313 !important;
+}
+.modal .content {
+  padding: 38px 50px 24px 50px !important;
+  margin-bottom: 20px !important;
+}
+.modalHeader {
+  color: #11a847;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 34px !important;
+}
+.modal .table th,
+td {
+  color: #131313 !important;
+}
+.modal .table thead th {
+  font-size: 18px !important;
+  font-weight: bold !important;
+}
+
+.modal .table tbody td {
+  font-size: 18px !important;
+}
+/* .customerProfileContainerHeight {
+  height: 201px;
+} */
+.contentDiv {
+  padding: 15px 0px 15px 2px !important;
+}
+.profileHeight {
+  height: 150px;
+}
+.profileContentHeight {
+  height: 110px;
+}
+/* MARGINS */
+.marginless {
+  margin: 0 !important;
+}
+.margin-bottom-10 {
+  margin-bottom: 10px;
+}
+.font10 {
+  font-size: 10px;
+}
+.font11 {
+  font-size: 11px;
+}
+.font15 {
+  font-size: 15px;
+}
+.font16 {
+  font-size: 16px;
+}
+/* PADDINGS */
+.paddingless {
+  padding: 0 !important;
+}
+.padding-left-20 {
+  padding-left: 20px;
+}
+.paddingTop15 {
+  padding-top: 15px;
+}
+.paddingFormat {
+  padding-bottom: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  padding-top: 10px !important;
+}
+.width121 {
+  width: 121px;
+}
+.text-center {
+  text-align: center;
+}
+.marginAuto {
+  margin: auto;
+}
+.angryIcon {
+  position: absolute;
+  right: 16px;
+  top: -8px;
+}
+.alignIcon {
+  position: relative;
+  top: 2px;
+}
+
+.btnRetryContainer {
+  padding-top: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.btnRetryContainer * {
+  margin: auto !important;
+}
+
+.noData,
+.serviceUnavailable {
+  color: #9a9a9a !important;
+  margin-bottom: 10px !important;
+}
+
+.noData {
+  /*margin-top: 50px !important;*/
+  font-size: 18px !important;
+}
+
+/* .reminderContainerHeight {
+  height: 201px;
+} */
+
+red {
+  color: #ff4a4a;
+}
+
+/*Financial Products*/
+.productAvailable {
+  color: #11a847 !important;
+  font-weight: bold;
+  font-size: 16px;
+  width: 100px;
+  height: 70px;
+}
+
+.productNotAvailable {
+  color: #9a9a9a !important;
+  font-weight: normal;
+  font-size: 16px;
+  width: 100px;
+  height: 70px;
+}
+
+i.circular.icon {
+  height: 1.5em !important;
+  width: 1.5em !important;
+  padding: 0.25em !important;
+}
+
+.width140 {
+  width: 140px;
+}
