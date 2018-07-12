@@ -5,5 +5,7 @@ Jul 12 2018
 - Added Handling of No Data for Financial Products First Layer and Second Layer
 - Install express dependency
 - Added server.js for SSL Implementation of the Dashboard
+- Updated Oracle API version
+- Update ODS API version and configuration for the xml file
 
 **********Release Notes for 07.12.2018********************
