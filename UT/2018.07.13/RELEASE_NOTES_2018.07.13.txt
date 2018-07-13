@@ -1,0 +1,12 @@
+**********Release Notes for 07.13.2018********************
+
+Jul-13 2018
+- Change versions to 0.1.6
+- Configure environment to UT
+- Change urls to connect to API and Web service with SSL
+- Removed unnecessary files and codes
+- Fixed ODS issue on branch and employee code incorrect mapping
+- Deploy latest code with fixes on issues sent thru email in excel file and ppt
+- Apply audit trail fix with lesser activemq
+
+**********Release Notes for 07.13.2018********************
