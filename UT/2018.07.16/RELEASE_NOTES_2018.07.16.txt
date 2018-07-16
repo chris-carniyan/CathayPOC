@@ -1,0 +1,13 @@
+**********Release Notes for 07.16.2018********************
+
+Jul-16 2018
+- Extend session timeout
+- Modify condition on Customer Data Update modal for displaying null data text
+- Show toggle arrow if mortgage loan is grey 
+- Change constant for null data in CDU 
+- Adjust URL for UT without SSL
+- Update condition to show/hide Customer Data Update button
+- Fixed issue on Product Recommendation Service when fetching data from ODS
+- Change version of Product Recommendation Service
+
+**********Release Notes for 07.16.2018********************
