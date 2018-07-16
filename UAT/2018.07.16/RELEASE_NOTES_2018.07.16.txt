@@ -1,0 +1,12 @@
+**********Release Notes for 07.16.2018********************
+
+
+
+Jul 16 2018
+
+- Update all files to match UT version
+- Adjust Environment settings to UAT
+- Update version to 0.1.7
+- Remove Saving to audit trail
+
+**********Release Notes for 07.16.2018********************
