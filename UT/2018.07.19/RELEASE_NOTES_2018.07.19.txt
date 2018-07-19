@@ -1,0 +1,12 @@
+**********Release Notes for 07.19.2018********************
+
+
+
+Jul 19 2018
+
+- Fixed issue 18
+- Update Product recommendation service, mapping of bkcPermanentAddress
+- Update cathay dashboard, reorder columns residential and permanent address
+
+
+**********Release Notes for 07.19.2018********************
