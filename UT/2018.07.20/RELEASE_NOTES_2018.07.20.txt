@@ -1,0 +1,12 @@
+**********Release Notes for 07.20.2018********************
+
+
+
+Jul 20 2018
+
+- Enhancement 9: Watermark
+- Birthday Report to use Y/N for bank and cc vip
+- Issue 23: Referral Report - Missing Customer Name
+
+
+**********Release Notes for 07.20.2018********************
