@@ -1,0 +1,13 @@
+**********Release Notes for 07.23.2018********************
+
+
+
+Jul 23 2018
+
+- Issue 12: Font
+- ISsue 17: Reminders different scenario for No Data and Error
+- Issue 20: Token Expiry
+- Enhancement 28: Customer Data Update
+
+
+**********Release Notes for 07.23.2018********************
