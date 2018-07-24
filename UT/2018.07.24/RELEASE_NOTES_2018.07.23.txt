@@ -1,0 +1,12 @@
+**********Release Notes for 07.24.2018********************
+
+
+
+Jul 24 2018
+
+- Issue 19: Customer Profile no data and error codes display
+- No data margin for Reminders
+- Doli points hide if not in date range
+
+
+**********Release Notes for 07.24.2018********************
