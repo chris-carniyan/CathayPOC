@@ -6,6 +6,8 @@ Jul 24 2018
 
 - Update all API and Web Services to return proper code and error and adjusted the version
 - Update Cathay Dashboard for Reminders and Customer Profile No Data and Error Code display
+- Fixed Oracle API error for Getting cards, invalid condition
+- Fixed Product Recommendation service, incorrect mapping of ODS request
 
 
 **********Release Notes for 07.26.2018********************
