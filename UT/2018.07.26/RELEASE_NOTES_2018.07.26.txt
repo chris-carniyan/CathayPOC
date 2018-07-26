@@ -1,0 +1,11 @@
+**********Release Notes for 07.26.2018********************
+
+
+
+Jul 24 2018
+
+- Update all API and Web Services to return proper code and error and adjusted the version
+- Update Cathay Dashboard for Reminders and Customer Profile No Data and Error Code display
+
+
+**********Release Notes for 07.26.2018********************
