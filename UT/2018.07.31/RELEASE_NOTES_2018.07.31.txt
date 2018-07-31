@@ -1,0 +1,11 @@
+**********Release Notes for 07.30.2018********************
+
+
+
+Jul 30 2018
+
+- Adjust Business Card Query or Logic (Enhancement 38)
+- Audit trail
+
+
+**********Release Notes for 07.30.2018********************
