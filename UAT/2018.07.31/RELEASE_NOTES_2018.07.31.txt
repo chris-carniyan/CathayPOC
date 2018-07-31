@@ -1,0 +1,13 @@
+**********Release Notes for 07.30.2018********************
+
+
+
+Jul 30 2018
+
+- RPDB decrease font size of chinese character (Issue 3)
+- CPDB no data (Enhancement 19)
+- FPDB Adjust Business Card Query or Logic (Enhancement 38)
+- FPDB public transaction (Enhancement 40)
+- CPDB age round down (Enhancement 41)
+
+**********Release Notes for 07.30.2018********************
