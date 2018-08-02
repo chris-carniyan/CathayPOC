@@ -1,0 +1,14 @@
+**********Release Notes for 08.02.2018********************
+
+
+
+Aug 02 2018
+
+- FPDB table sorting (Enhancement 45)
+- FPDB 2nd layer title (Enhancement 46)
+- RMDB 1st and 2nd layer title (Enhancement 47)
+- CPDB Web Service adjustments
+- All Web service property adjustments
+
+
+**********Release Notes for 08.02.2018********************
