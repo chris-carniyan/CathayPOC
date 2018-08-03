@@ -1,0 +1,13 @@
+**********Release Notes for 08.03.2018********************
+
+
+
+Aug 03 2018
+
+- Remove "uat" and "ut" profile in DbConfig.java in mongo-service-api
+- Remove value of db.key and db.fileName in application-uat.properties in mongo-service-api
+- Remove value of db.key and db.fileName in application-ut.properties in mongo-service-api
+- Original mongodb connection used
+
+
+**********Release Notes for 08.03.2018********************
