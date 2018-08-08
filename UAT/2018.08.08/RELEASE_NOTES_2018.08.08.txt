@@ -1,0 +1,11 @@
+**********Release Notes for 08.08.2018********************
+
+
+Aug 08 2018
+
+- Fix mongo API "404 not found" issue
+- Update activeMQ version
+- Modified cathay-dashboard; added Url-DEV.js, Url-UAT.js, Url-UT.js and Url.PRO.js
+
+
+**********Release Notes for 08.08.2018********************
