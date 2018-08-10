@@ -5,7 +5,10 @@ Aug 10 2018
 
 - Modified UAT and PROD application property files
 - Edit web services for audit trail
+<<<<<<< HEAD
 - Fix Customer Profile web service
+=======
+>>>>>>> 1e8e71c0612cc6580d255f9a602b159aa1770be6
 
 
 **********Release Notes for 08.10.2018********************
