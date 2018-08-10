@@ -1,0 +1,10 @@
+**********Release Notes for 08.10.2018********************
+
+
+Aug 10 2018
+
+- Modified UAT and PROD application property files
+- Edit web services for audit trail
+
+
+**********Release Notes for 08.10.2018********************
