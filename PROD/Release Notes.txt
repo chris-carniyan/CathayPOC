@@ -1,3 +1,4 @@
 *** 08/14/2018 ***
 - Modify properties to include spring.data.mongodb.uri
 - Modify DbConfig for production
+- Modify All web services and remove audit trail
