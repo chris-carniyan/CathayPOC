@@ -2,3 +2,8 @@
 - Modify properties to include spring.data.mongodb.uri
 - Modify DbConfig for production
 - Modify All web services and remove audit trail
+
+
+
+*** 08/15/2018 ***
+- Remove customer profile folder inside customer profile project
