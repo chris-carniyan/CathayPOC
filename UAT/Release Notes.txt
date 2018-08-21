@@ -1,0 +1,170 @@
+*** 08/21/2018 ***
+- Modified cathay-dashboard.
+- Fixed Customer Journey 2nd layer channels name displays in dashboard
+
+
+
+*** 08/15/2018 ***
+- Remove customer profile folder inside customer profile project
+- Update gift data job Oracle service name and file name
+- Update Ods API client.ods.uri.gift
+- Update Mongo API spring.data.mongodb.uri
+- Update Oracle API oracle service name
+- Update Authentication API oracle service name
+
+
+
+*** 08/14/2018 ***
+- Modify properties to include spring.data.mongodb.uri
+- Modify DbConfig for production
+- Modify All web services and remove audit trail
+
+
+
+*** 08/10/2018 ***
+- Modified UAT and PROD application property files
+- Edit web services for audit trail
+- Fix Customer Profile web service
+
+
+
+*** 08/09/2018 ***
+- Fix mongo API UAT property file; mongoDB host and port
+- Edit web services for audit trail
+
+
+
+*** 08/08/2018 ***
+- Fix mongo API "404 not found" issue
+- Update activeMQ version
+- Modified cathay-dashboard; added Url-DEV.js, Url-UAT.js, Url-UT.js and Url.PRO.js
+
+
+
+*** 08/06/2018 ***
+- Remove(comment out) activeMQ in audit-trail API
+
+
+
+*** 08/03/2018 ***
+- Remove "uat" and "ut" profile in DbConfig.java in mongo-service-api
+- Remove value of db.key and db.fileName in application-uat.properties in mongo-service-api
+- Remove value of db.key and db.fileName in application-ut.properties in mongo-service-api
+- Original mongodb connection used
+- Fixed ROPDB null pointer
+
+
+
+*** 08/02/2018 ***
+- FPDB table sorting (Enhancement 45)
+- FPDB 2nd layer title (Enhancement 46)
+- RMDB 1st and 2nd layer title (Enhancement 47)
+- CPDB Web Service adjustments
+- All Web service property adjustments
+
+
+
+*** 08/01/2018 ***
+- CPDB birthday cake
+- FPDB 2nd layer title (Enhancement 43)
+
+
+
+*** 07/31/2018 ***
+- RPDB decrease font size of chinese character (Issue 3)
+- CPDB no data (Enhancement 19)
+- FPDB Adjust Business Card Query or Logic (Enhancement 38)
+- FPDB public transaction (Enhancement 40)
+- CPDB age round down (Enhancement 41)
+
+
+
+*** 07/30/2018 ***
+- Adjust Business Card Query or Logic (Enhancement 38)
+- Font (Issue 12)
+- Watermark (Enhancement 27)
+- CJDB Timestamp One line (Enhancement 34)
+- ROPD Customer Data Update (Issue 36)
+- FPDB No Data (Enhancement 39)
+
+
+
+*** 07/27/2018 ***
+- Font (Issue 12)
+- Watermark (Enhancement 27)
+- Customer Data Update Modal size (Issue 30)
+- CJDB No Data (Enhancement 32)
+- ROPDB Referral Result text (Enhancement 33)
+- FPDB modal header text (Enhancement 35)
+- CPDB VIP Code Font Size consistency (Enhancement 36)
+
+
+
+*** 07/26/2018 ***
+- Update all API and Web Services to return proper code and error and adjusted the version
+- Update Cathay Dashboard for Reminders and Customer Profile No Data and Error Code display
+- Fixed Oracle API error for Getting cards, invalid condition
+- Fixed Product Recommendation service, incorrect mapping of ODS request
+
+
+
+*** 07/20/2018 ***
+- Include db encrypt to all API
+- Update Product recommendation service mapping of bkcPermanentAddress
+- Update cathay dashboard with fixes for enhancement 09, issue 23, and Birthday report
+
+
+
+*** 07/17/2018 ***
+- Update Mongo API to handle Null pointer of Reminders card campaigns
+- Update Mongo API version
+
+
+
+*** 07/16/2018 ***
+- Update all files to match UT version
+- Adjust Environment settings to UAT
+- Update version to 0.1.7
+- Remove Saving to audit trail
+
+
+
+*** 07/13/2018 ***
+- Changed URL.js for SSL Implementation of the Dashboard from http to https and from port 8080 to 8443
+
+
+
+
+*** 07/12/2018 ***
+- Fix RMDB-US71-EN01, RMDB-US65-EN01 and FPDB-EN01
+- Added Handling of No Data for Financial Products First Layer and Second Layer
+- Install express dependency
+- Added server.js for SSL Implementation of the Dashboard
+- Updated Oracle API version
+- Update ODS API version and configuration for the xml file
+
+
+
+*** 07/11/2018 ***
+- incorrect condition implemented on predictions dashboard, updated to handle with and without data
+- Update ods and rop service to handle no data
+- Update dashboard to show mortgage and personal loan even if the data is null
+- Update ROPDB, retain referral options color when submitted
+
+
+
+*** 07/10/2018 ***
+- dashboard no data issue for predictions
+
+
+
+*** 07/09/2018 ***
+- changed ip address of mongo.war
+- fix first gift issue
+
+
+
+*** 07/06/2018 ***
+- changed configuration from UT to UAT of all microservices
+- changed configuration from UT to UAT of all API and jobs
+- updated version of all microservices to "0.1.1"

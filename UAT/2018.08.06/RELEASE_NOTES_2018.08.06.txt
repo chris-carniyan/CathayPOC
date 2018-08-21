@@ -1,9 +1,0 @@
-**********Release Notes for 08.06.2018********************
-
-
-Aug 06 2018
-
-- Remove(comment out) activeMQ in audit-trail API
-
-
-**********Release Notes for 08.06.2018********************

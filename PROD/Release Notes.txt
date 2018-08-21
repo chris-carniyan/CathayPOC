@@ -1,7 +1,6 @@
-*** 08/14/2018 ***
-- Modify properties to include spring.data.mongodb.uri
-- Modify DbConfig for production
-- Modify All web services and remove audit trail
+*** 08/21/2018 ***
+- Modified cathay-dashboard.
+- Fixed Customer Journey 2nd layer channels name displays in dashboard
 
 
 
@@ -12,3 +11,10 @@
 - Update Mongo API spring.data.mongodb.uri
 - Update Oracle API oracle service name
 - Update Authentication API oracle service name
+
+
+
+*** 08/14/2018 ***
+- Modify properties to include spring.data.mongodb.uri
+- Modify DbConfig for production
+- Modify All web services and remove audit trail

@@ -1,7 +1,0 @@
-**********Release Notes for 07.10.2018********************
-
-Jul 10 2018
-- dashboard no data issue for predictions
-
-
-**********Release Notes for 07.10.2018********************

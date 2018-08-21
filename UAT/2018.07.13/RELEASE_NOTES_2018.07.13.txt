@@ -1,9 +1,0 @@
-**********Release Notes for 07.13.2018********************
-
-
-Jul 13 2018
-
-- Changed URL.js for SSL Implementation of the Dashboard from http to https and from port 8080 to 8443
-
-
-**********Release Notes for 07.13.2018********************
