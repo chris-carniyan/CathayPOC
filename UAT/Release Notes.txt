@@ -1,3 +1,19 @@
+*** 9/3/2018 ***
+- Modified cathay-dashboard Customer Journey 2nd details; removed 'text-transform: uppercase' css style for channel class
+- Fixed issue on customer profile not working on audit trail - fixed parsing of date and time
+- Fixed issue on incorrect client ip for customer journey and customer profile 
+- Added client ip as a request paramater for getCustomerJourneyDetail and getCustomerProfile
+- Moved audit trail from queryCustomerProfile to getCustomerProfile
+- Fixed parsing for transaction date time in userAuditTrail
+
+
+*** 8/22/2018 ***
+- Added caching of connections for each listener of the queue
+- Added pooling of activemq
+
+
+
+
 *** 08/21/2018 ***
 - Modified cathay-dashboard.
 - Fixed Customer Journey 2nd layer channels name displays in dashboard
